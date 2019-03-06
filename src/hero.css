@@ -1,0 +1,25 @@
+.hero {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero--wrapper {
+  border: 10px solid white;
+  text-transform: uppercase;
+  padding: 16px;
+  max-width: 720px;
+  margin: 8px;
+}
+
+.hero--content {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
