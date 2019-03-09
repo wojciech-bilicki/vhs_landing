@@ -1,0 +1,57 @@
+.examples {
+  padding: 100px 50px;
+  background-color: gainsboro;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.examples hr {
+  width: 200px;
+  height: 4px;
+  background-color: blueviolet;
+  margin: 48px 0;
+}
+
+.title__full-width {
+  width: 100%;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
+.poster {
+  box-sizing: border-box;
+	padding: 20px;
+	height: 350px;
+  border-radius: 3px;
+  background: linear-gradient(9deg, rgba(107,15,111,1) 0%, rgba(2,39,80,1) 100%);
+	background-clip: content-box;
+	background-size: contain;
+	background-position: center;
+  background-repeat: no-repeat;
+}
+
+.poster__large {
+  flex-basis: 60%;
+}
+
+.poster__small {
+  flex-basis: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .poster__large {
+    flex-basis: 100%;
+  }
+
+  .poster__small {
+    flex-basis: 100%;
+  }
+}

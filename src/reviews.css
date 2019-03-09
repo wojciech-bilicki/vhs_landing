@@ -1,0 +1,35 @@
+.reviews {
+  padding: 125px 100px;
+  background-color: rgba(107,15,111,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.author--container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.author--avatar {
+  max-width: 100%;
+  border-radius: 50%;
+  height: 120px;
+}
+
+.quote {
+  text-align: center;
+  font-style: cursive;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .reviews {
+    padding: 50px 25px;
+  }
+}
+

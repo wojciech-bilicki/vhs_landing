@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,28 @@
   <link rel="stylesheet" href="src/navigation.css">
   <link rel="stylesheet" href="src/reset.css">
   <link rel="stylesheet" href="src/hero.css">
+  <link rel="stylesheet" href="src/services.css">
+  <link rel="stylesheet" href="src/reviews.css">
+  <link rel="stylesheet" href="src/library.css">
+  <link rel="stylesheet" href="src/footer.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
   <title>Document</title>
 </head>
+
 <body>
   <nav class="navigation">
     <img class="navigation--logo" src="assets/logo.png">
     <ul class="navigation--links">
-      <li class="navigation--link">Home</li>
-      <li class="navigation--link">Services</li>
-      <li class="navigation--link">Reviews</li>
-      <li class="navigation--link">Our Values</li>
-      <li class="navigation--link">VHS Store</li>
-      <li class="navigation--link">Your Library</li>
+      <li class="link-wrapper">
+        <a class="link" href="#home">Home</a></li>
+      <li class="link-wrapper"><a href="#services" class="link">Services</a></li>
+      <li class="link-wrapper"><a href="#reviews" class="link">Reviews</a></li>
+      <li class="link-wrapper"><a href="#examples" class="link">Our VHS</a></li>
+      <li class="link-wrapper"><a href="#" class="link">VHS Store</a></li>
+      <li class="link-wrapper"><a href="#" class="link">Your Library</a></li>
     </ul>
 
     <!-- menu toggle -->
@@ -33,20 +44,107 @@
         <li class="navigation--link ">Home</li>
         <li class="navigation--link">Services</li>
         <li class="navigation--link">Reviews</li>
-        <li class="navigation--link">Our Values</li>
+        <li class="navigation--link">Example VHS</li>
         <li class="navigation--link">VHS Store</li>
         <li class="navigation--link">Your Library</li>
       </ul>
     </div>
   </nav>
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="hero--wrapper">
       <div class="hero--content">
-          <h1>The best VHS IN THE WORLD</h1>
-
+        <h1>The best VHS IN THE WORLD</h1>
       </div>
     </div>
   </section>
-  
+  <section id="services" class="services">
+    <div class="services--card">
+      <h2 class="title">Services we provide</h2>
+      <h3>We provide services you couldn't even dream of</h3>
+      <ul class="services--carousel">
+        <li class="services--list-item">
+          <img src="http://placekitten.com/200/200">
+          <h4>80's best movies</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, assumenda ut voluptatem enim maiores
+            accusamus quibusdam id eius dolores quo!</p>
+        </li>
+        <li class="services--list-item">
+          <img src="http://placekitten.com/200/200">
+          <h4>The greatest archive of horrors</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, assumenda ut voluptatem enim maiores
+            accusamus quibusdam id eius dolores quo!</p>
+        </li>
+        <li class="services--list-item">
+          <img src="http://placekitten.com/200/200">
+          <h4>Fantastic movie shows for all family</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, assumenda ut voluptatem enim maiores
+            accusamus quibusdam id eius dolores quo!</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="reviews" class="reviews">
+    <h1 class="title">What others say?</h1>
+    <p class="quote">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi non culpa sint doloremque
+      recusandae enim, consectetur dolorum distinctio aperiam?
+    </p>
+    <div class="author--container">
+      <p class="author">- Predator</p>
+      <img class="author--avatar" src="https://avatarfiles.alphacoders.com/564/56495.jpg"></img>
+    </div>
+    <p class="quote">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi non culpa sint doloremque
+      recusandae enim, consectetur dolorum distinctio aperiam?
+    </p>
+    <div class="author--container">
+      <p class="author">
+        - Kruger
+      </p><img class="author--avatar"
+        src="https://static.comicvine.com/uploads/original/8/86962/5525324-8329703881-d9bb5.jpg" alt="Kruger">
+    </div>
+    <p class="quote">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi non culpa sint doloremque
+      recusandae enim, consectetur dolorum distinctio aperiam?
+    </p>
+    <div class="author--container">
+      <p class="author">
+        - John Travolta
+      </p>
+      <img class="author--avatar" src="https://i.pinimg.com/originals/94/ff/be/94ffbea9f69789a4a18fae9688d3a235.jpg"
+        alt="Kruger">
+    </div>
+  </section>
+  <section id="examples" class="examples">
+    <h1 class="title title__full-width">Some of our movies</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente maxime quam quidem nobis, corporis aspernatur?
+    </p>
+    <hr>
+    <ul class="image-grid">
+      <li class="poster poster__large" style="background-image: url(assets/back_to_the_future.jpg)"></li>
+      <li class="poster poster__small" style="background-image: url(assets/city_cobra.jpg)"></li>
+      <li class="poster poster__small" style="background-image: url(assets/critters.jpg)"></li>
+      <li class="poster poster__large" style="background-image: url(assets/empire_strikes.jpg)"></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <ul class="icons-list">
+      <li><span class="icon--wrapper">
+          <i class="fab fa-twitter"></i>
+        </span></li>
+      <li><span class="icon--wrapper">
+          <i class="fab fa-facebook"></i>
+        </span></li>
+      <li><span class="icon--wrapper yellow">
+          <i class="fab fa-snapchat"></i>
+        </span></i></li>
+      <li><span class="icon--wrapper violet">
+          <i class="fab fa-twitch"></i>
+        </span></i></li>
+    </ul>
+    <p>Created by CyberPotato™</p>
+  </footer>
 </body>
+
 </html>
