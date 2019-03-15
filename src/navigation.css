@@ -92,13 +92,6 @@ background: linear-gradient(9deg, rgba(107,15,111,1) 0%, rgba(2,39,80,1) 100%);
   border-bottom: 3px solid white;
 }
 
-
-
-
-
-
-
-
 .menu input:checked ~ .navigation--hidden-menu {
   transform: translate(-100%, 0)
 }

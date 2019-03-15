@@ -23,6 +23,12 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+@media screen and (max-width: 750px) {
+  .vhs_wrapper {
+    flex-basis: calc(100% - 16px)
+  }
+}
+
 .vhs_wrapper div:first-of-type {
   margin-top: 16px;
 }
@@ -46,4 +52,23 @@
 .vhs_poster {
   width: 80%;
   max-width: 250px;
+}
+
+.vhs_footer {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.vhs_footer button {
+  padding: 16px;
+  color: white;
+  background-color: darkslategrey;
+  border: none;
+  cursor: pointer;
+}
+
+.vhs_footer button:hover {
+  background-color: slategrey;
 }

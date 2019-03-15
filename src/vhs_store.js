@@ -80,7 +80,6 @@ const vhsCardElements = vhsTapes.map(tape => {
 
   vhsWrapper.appendChild(
     createCardFooter(tape.imdb_link, () => {
-      console.log('Adding to storage');
       addVhsToStorage(tape.id);
     })
   );
