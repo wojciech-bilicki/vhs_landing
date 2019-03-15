@@ -1,0 +1,49 @@
+:root {
+  --wrapper-width: 300px;
+}
+
+.vhs_store {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vhs_wrapper {
+  margin: 16px 8px;
+  width: var(--wrapper-width);
+  box-sizing: border-box;
+  flex-basis: calc(50% - 16px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.vhs_wrapper div:first-of-type {
+  margin-top: 16px;
+}
+
+.vhs_wrapper p {
+  margin: 4px 0;
+}
+
+.vhs_label {
+  text-transform: capitalize;
+}
+
+.vhs_entry_wrapper {
+  margin-top: 8px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vhs_poster {
+  width: 80%;
+  max-width: 250px;
+}

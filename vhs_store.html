@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Library</title>
+  <link rel="stylesheet" href="src/reset.css">
+  <link rel="stylesheet" href="src/navigation.css">
+  <link rel="stylesheet" href="src/footer.css">
+  <link rel="stylesheet" href="src/vhs_store.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+</head>
+
+<body>
+  <nav class="navigation">
+    <img class="navigation--logo" src="assets/logo.png">
+    <ul class="navigation--links">
+      <li class="link-wrapper">
+        <a class="link" href="#home">Home</a></li>
+      <li class="link-wrapper"><a href="/#services" class="link">Services</a></li>
+      <li class="link-wrapper"><a href="#reviews" class="link">Reviews</a></li>
+      <li class="link-wrapper"><a href="#examples" class="link">Our VHS</a></li>
+      <li class="link-wrapper"><a href="#" class="link">VHS Store</a></li>
+      <li class="link-wrapper"><a href="#" class="link">Your Library</a></li>
+    </ul>
+
+    <!-- menu toggle -->
+    <div class="menu">
+      <input class="menu--toggle" type="checkbox">
+
+      <span class="menu--hamburger-bar"></span>
+      <span class="menu--hamburger-bar"></span>
+      <span class="menu--hamburger-bar"></span>
+
+      <ul class="navigation--hidden-menu">
+        <li class="navigation--link ">Home</li>
+        <li class="navigation--link">Services</li>
+        <li class="navigation--link">Reviews</li>
+        <li class="navigation--link">Example VHS</li>
+        <li class="navigation--link">VHS Store</li>
+        <li class="navigation--link">Your Library</li>
+      </ul>
+    </div>
+  </nav>
+  <section class="vhs_store">
+
+  </section>
+  <footer class="footer">
+    <ul class="icons-list">
+      <li><span class="icon--wrapper">
+          <i class="fab fa-twitter"></i>
+        </span></li>
+      <li><span class="icon--wrapper">
+          <i class="fab fa-facebook"></i>
+        </span></li>
+      <li><span class="icon--wrapper yellow">
+          <i class="fab fa-snapchat"></i>
+        </span></i></li>
+      <li><span class="icon--wrapper violet">
+          <i class="fab fa-twitch"></i>
+        </span></i></li>
+    </ul>
+    <p>Created by CyberPotato™</p>
+  </footer>
+  <script type="module" src="assets/vhs.js"></script>
+  <script type="module" src="src/vhs_store.js"></script>
+
+</body>
+
+</html>
